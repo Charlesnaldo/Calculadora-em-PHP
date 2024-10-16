@@ -1,0 +1,71 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #c7e2fd; /* Suave e neutro */
+    margin: 0;
+    padding: 20px;
+    background: rgb(164, 203, 248);
+}
+h2 {
+    text-align: center;
+    color: #333; /* Cor suave para o título */
+}
+.formulario {
+    background-color: #fff; /* Branco para o fundo do formulário */
+    border-radius: 10px; /* Bordas mais arredondadas */
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s; /* Transição suave para sombra */
+}
+.formulario:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); /* Efeito hover para o formulário */
+}
+label {
+    display: block;
+    margin: 10px 0 5px; /* Margem suave entre os elementos */
+    color: #555; /* Cor do texto mais suave */
+}
+input[type="number"] {
+    width: calc(100% - 22px); /* Largura total menos padding */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+input[type="number"]:focus {
+    border-color: #4CAF50; /* Mudança de cor ao focar */
+    outline: none; /* Remove o contorno padrão */
+}
+.botao {
+    background-color: #4CAF50; /* Verde suave */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block; /* Exibe como bloco para ocupar toda a largura */
+    font-size: 16px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Transições suaves */
+}
+.botao:hover {
+    background-color: #45a049; /* Tom mais escuro ao passar o mouse */
+    transform: scale(1.05); /* Leve aumento de tamanho */
+}
+.Resultado {
+    background-color: #e7f3fe; /* Azul claro suave */
+    border: 1px solid #2196F3; /* Azul mais forte */
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    color: #333;
+    font-size: 18px; /* Aumentar o tamanho da fonte */
+}
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #777; /* Cor suave para o rodapé */
+}
